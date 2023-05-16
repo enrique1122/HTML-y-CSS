@@ -1,0 +1,24 @@
+body {
+
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+.imagenes-container{
+    margin: 100px auto;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.imagenes-container .imagen {
+    position: relative;
+    margin-right: -20px;
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+.imagenes-container .imagen img {
+    width: 100px;
+    height: 100px;
+     
+}

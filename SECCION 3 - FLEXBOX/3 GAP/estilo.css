@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    background-color: #202020;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.uno {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(231, 86, 19);
+    border-radius: 20px;
+}
+.dos {
+    height: 200px;
+    width: 200px;
+    background-color: #725EFF;
+    border-radius: 20px;
+}
+
+.tres {
+    height: 200px;
+    width: 200px;
+    background-color: #00BFFF; 
+    border-radius: 20px;   
+}

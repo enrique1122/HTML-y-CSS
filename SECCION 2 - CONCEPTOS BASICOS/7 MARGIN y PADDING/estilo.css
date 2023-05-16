@@ -1,0 +1,18 @@
+
+.padre {
+    background: #F23B00;
+     height: 300px;
+     width: 300px;
+     /*margin: 120px;  mueve todo */
+     /* margin-left: 200px;
+     margin-top: 250px; */
+     /* padding: ; */
+     /*margin: 20px 40px; arriba abjo izq der*/
+     padding: 50px;
+}
+
+.hijo {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

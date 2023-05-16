@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(#EF4639, #DB1D28);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 100px;
+}
+.main header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+.main header .logo {
+  max-width: 90px;
+}
+.main header .navigation {
+  display: flex;
+  flex-direction: row;
+}
+.main header .navigation li {
+  list-style: none;
+}
+.main header .navigation li a {
+  position: relative;
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.main .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main .content .text {
+  width: 100%;
+  max-width: 600px;
+}
+.main .content .text h2 {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.main .content .text .btn {
+  position: relative;
+  display: inline-block;
+  padding: 20px 50px;
+  background: #FFF;
+  color: #333;
+  font-size: 1.1em;
+  border-radius: 40px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.main .content .text .btn:hover {
+  letter-spacing: 2px;
+}/*# sourceMappingURL=style.css.map */

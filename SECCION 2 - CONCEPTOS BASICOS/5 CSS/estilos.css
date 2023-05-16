@@ -1,0 +1,22 @@
+h1{
+    color: red;
+}
+h2 {
+    color: aquamarine;
+}
+
+p {
+    color: blueviolet;
+    background-color: rgb(88, 121, 228);
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 20px ;
+}
+
+p:hover {
+    color:  rgb(9, 9, 10);
+    background-color: rgb(171, 95, 243);
+}
+div {
+    color: rgb(30, 199, 67);
+}

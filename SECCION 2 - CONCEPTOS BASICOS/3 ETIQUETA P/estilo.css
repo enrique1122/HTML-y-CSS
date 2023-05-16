@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#p1 {
+    background-color: brown;
+    border-radius: 20px 10px;
+}
+
+#p2 {
+    background-color: cadetblue;
+}
+
+#p1:hover {
+    background-color: blueviolet;
+    cursor: crosshair;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+   
+}

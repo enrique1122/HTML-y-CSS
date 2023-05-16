@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: black;
+}
+
+.container {
+    background: #202020;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.uno {
+    background: #F13929;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijouno{
+    width: 50%;
+    height: 50%;
+    background: #7250FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijohijouno {
+    width: 50%;
+    height: 50%;
+    background: #F13929;
+    border-radius: 50%;
+}
+
+.dos {
+    background: #7250FF;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.tres {
+    background: #01D0FB;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}

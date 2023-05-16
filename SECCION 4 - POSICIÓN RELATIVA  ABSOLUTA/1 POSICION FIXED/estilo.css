@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+}
+.padre {
+    width: 200px;
+    height: 200px;
+    background: #F13929;
+    position: fixed;
+    left: 0;
+    bottom: 50%;
+    
+}
+
+.hijo {
+    width: 200px;
+    height: 200px;
+    background: #7888EA;   
+}

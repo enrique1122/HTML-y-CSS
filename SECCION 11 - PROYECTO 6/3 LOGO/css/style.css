@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(#EF4639, #DB1D28);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 100px;
+}
+.main header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+.main header .logo {
+  max-width: 90px;
+}/*# sourceMappingURL=style.css.map */

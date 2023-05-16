@@ -1,0 +1,13 @@
+.box {
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     background-color: red;
+     color: white;
+}
+#dos {
+    position: relative;
+    top: 200px;
+    left: 5px;
+    background-color: green;
+}
