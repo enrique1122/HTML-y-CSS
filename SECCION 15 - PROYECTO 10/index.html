@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title >Document</title>
 </head>
 <body>
@@ -20,6 +21,7 @@
             </ul>
             <div class="search">
                 <input type="text" placeholder="Search">
+                <button class="btn-buscar"><span class="material-icons">search</span></button>
             </div>
         </header>
         <section class="banner">
@@ -41,8 +43,22 @@
                     <a href="#">My List</a>
                 </div>
             </div>
-            <a href="#" class="play" ><img src="img/play.png" alt="">Watch Trailer</a>
+            <a href="#" class="play" onclick="toggleVideo()"><img src="img/play.png" alt="">Watch Trailer</a>
+        </section>
+        <section class="trailer">
+            <video src="img/trailer.mp4" controls="true"></video>
+            <img src="img/close.png" alt="" class="close" onclick="toggleVideo()">
         </section>
     </main>
+    <script>
+        function toggleVideo(){
+            const trailer = document.querySelector(".trailer");
+            const video = document.querySelector("video");
+
+            trailer.classList.toggle("active");
+            video.currentTime = 0;
+            video.pause();
+        }
+    </script>
 </body>
 </html>
