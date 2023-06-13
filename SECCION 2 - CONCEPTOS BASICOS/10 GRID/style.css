@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    "a1 a2  a2 a2 a3"
+    "a1 a2  a2 a2 a3"
+    "a1 a2  a2 a2 a3"
+    "a1 a4  a4 a4 a3"
+    "a1 a4  a4 a4 a3";
+}
+
+section{
+
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja1{
+   background-color: lightcoral;
+   grid-area: a1;
+}
+.caja2{
+    background-color: lightgreen;
+    grid-area: a2;
+}
+.caja3{
+    background-color: lightseagreen;
+    grid-area: a3;
+}
+.caja4{
+    background-color: lightskyblue;
+    grid-area: a4;
+}
